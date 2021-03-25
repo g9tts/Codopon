@@ -1,0 +1,19 @@
+.sidenav {
+    background-color: #F5F1E6;
+    width: 200px;
+    height: center;
+    bottom: 10px;
+    position: fixed;
+}
+
+.sidenav a {
+    color: #851916;
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.background {
+    background-color: #F5F1E6;
+}
