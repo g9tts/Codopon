@@ -1,5 +1,5 @@
 .sidenav {
-    background-color: #F5F1E6;
+    background-color: #292526;
     width: 200px;
     height: center;
     bottom: 10px;
@@ -7,7 +7,7 @@
 }
 
 .sidenav a {
-    color: #851916;
+    color: #F2B161;
 }
 
 .sidenav i {
@@ -15,5 +15,5 @@
 }
 
 .background {
-    background-color: #F5F1E6;
+    background-color: #292526;
 }
