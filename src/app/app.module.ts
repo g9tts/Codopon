@@ -9,7 +9,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavigationComponent } from './components/template/navigation/navigation.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
-import { ConteudoComponent } from './conteudo/conteudo.component';
+import { ConteudoComponent } from './components/template/conteudo/conteudo.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon'
 
