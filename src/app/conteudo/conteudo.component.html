@@ -1,0 +1,10 @@
+<button (click)="mostrapon = !mostrapon" mat-raised-button>
+    ola
+  </button>
+
+  <div *ngIf="mostrapon" >
+    <app-navigation></app-navigation>
+    <button mat-flat-button color="primary">
+    </button>
+    
+  </div>

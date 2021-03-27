@@ -13,13 +13,16 @@ import { NavigationComponent } from './components/template/navigation/navigation
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { ConteudoComponent } from './conteudo/conteudo.component';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavigationComponent
+    NavigationComponent,
+    ConteudoComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { MatListModule } from '@angular/material/list';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatButtonModule
   ],
   
   providers: [],
