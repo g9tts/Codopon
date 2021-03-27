@@ -1,10 +1,13 @@
 .sidenav {
     background-color: #292526;
     width: 200px;
-    height: center;
+    height: 75%;
     bottom: 10px;
     position: fixed;
+    padding: 0 16px;
+    border-radius: 0 10px 10px 0;
 }
+
 
 .sidenav a {
     color: #F2B161;
