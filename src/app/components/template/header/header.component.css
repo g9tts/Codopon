@@ -15,7 +15,8 @@
 }
 
 .header  .logo {
-    max-height: 128px;
+    max-height: 150px;
+    margin-top: 10px;
 }
 
 .header .title-group{
