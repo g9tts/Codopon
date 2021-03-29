@@ -1,4 +1,4 @@
-.sidenav {
+/* .sidenav {
     background-color: #292526;
     width: 200px;
     height: 75%;
@@ -20,4 +20,43 @@
 
 .background {
     background-color: #292526;
+} */
+
+.sidenav {
+    background-color: #292526;
+    width: 200px;
+    height: 75%;
+    bottom: 10px;
+    position: fixed;
+    padding: 0 16px;
+    border-radius: 0 10px 10px 0;
+    margin: 80px 0;
+    display: flex;
+    align-items: stretch;
 }
+
+
+  
+  .sidenav-content {
+    height: 89%;
+    margin: 15px 5px;
+    padding-right: 50px;
+    bottom: 10px;
+    position: static;
+    border-radius: 0 10px 10px 0;
+    align-items: stretch;
+  }
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.sidenav a {
+    color: #F2B161;
+    font-family: roboto;
+}
+
+.sidenav-close {
+    margin: 80px 0;
+}
+
