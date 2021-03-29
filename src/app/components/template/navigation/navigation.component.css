@@ -1,4 +1,4 @@
-.sidenav {
+/* .sidenav {
     background-color: #292526;
     width: 200px;
     height: 75%;
@@ -20,4 +20,28 @@
 
 .background {
     background-color: #292526;
-}
+} */
+
+.example-container {
+    background-color: #292526;
+    width: 200px;
+    height: 75%;
+    bottom: 10px;
+    position: fixed;
+    padding: 0 16px;
+    border-radius: 0 10px 10px 0;
+
+  }
+  
+  .example-sidenav-content {
+    width: 200px;
+    height: 75%;
+    bottom: 10px;
+    position: fixed;
+    padding: 0 16px;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+  }
