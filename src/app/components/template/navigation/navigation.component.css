@@ -22,7 +22,7 @@
     background-color: #292526;
 } */
 
-.example-container {
+.sidenav {
     background-color: #292526;
     width: 200px;
     height: 75%;
@@ -30,18 +30,35 @@
     position: fixed;
     padding: 0 16px;
     border-radius: 0 10px 10px 0;
+    margin: 0;
+    height: 75% !important;
 
-  }
+}
+
+
   
-  .example-sidenav-content {
-    width: 200px;
+  .sidenav-content {
     height: 75%;
     bottom: 10px;
     position: fixed;
-    padding: 0 16px;
     border-radius: 0 10px 10px 0;
   }
   
   .example-sidenav {
     padding: 20px;
+
   }
+
+  .sidenav a {
+    color: #F2B161;
+    font-family: roboto;
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.background {
+    color: #F2B161;
+    font-family: roboto;
+}
