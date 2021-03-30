@@ -10,7 +10,8 @@ import { NavigationComponent } from './components/template/navigation/navigation
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import { ConteudoComponent } from './view/conteudo/conteudo.component'
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import {MatIconModule} from '@angular/material/icon'
     HeaderComponent,
     FooterComponent,
     NavigationComponent,
+    ConteudoComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,8 @@ import {MatIconModule} from '@angular/material/icon'
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    AppRoutingModule
   ],
   
   providers: [],
