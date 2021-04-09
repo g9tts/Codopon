@@ -11,7 +11,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
-import { ConteudoComponent } from './view/conteudo/conteudo.component'
+import { ConteudoComponent } from './view/conteudo/conteudo.component';
+import { ProdutoComponent } from './view/produto/produto.component'
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { ConteudoComponent } from './view/conteudo/conteudo.component'
     FooterComponent,
     NavigationComponent,
     ConteudoComponent,
+    ProdutoComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { ConteudoComponent } from './view/conteudo/conteudo.component'
     MatListModule,
     MatButtonModule,
     MatIconModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule
   ],
   
   providers: [],
