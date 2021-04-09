@@ -12,4 +12,13 @@ export class ProdutoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public numero = 0;
+
+  incremento(numero){
+    this.numero = this.numero+1;
+  }
+  decremento(numero){
+    this.numero = this.numero-1;
+  }
+
 }
