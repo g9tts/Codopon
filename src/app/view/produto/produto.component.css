@@ -6,3 +6,22 @@
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
   }
+
+
+  .example-card2 {
+    max-width: 300px;
+    margin-left: 400px;
+    margin-top: -530px;
+    
+
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  /* para auxiliar a ver a diferenças do respiro */
+  .produto{
+    background-color: black;
+  }
